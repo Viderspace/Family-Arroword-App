@@ -17,11 +17,30 @@ The full codebase remains private while the app is prepared for release, but thi
 
 ## ✨ Key Features
 
-### 1. **Puzzle Upload & Board Recognition**
+<table>
+<tr>
+<td width="55%">
+
+<h3>1. <strong>Puzzle Upload & Board Recognition</strong></h3>
+
 Users can start a new shared puzzle group by importing:
-- A **photo** from the gallery
-- A **PDF document**, with in-app page selection
-- A **live scan** using VisionKit
+<ul>
+<li>A <b>photo</b> from the gallery</li>
+<li>A <b>PDF document</b> with page selection  (Like in this instance ---->)</li>
+<li>A <b>live scan</b> using VisionKit</li>
+</ul>
+
+Arroword then automatically detects the puzzle’s grid dimensions and initializes a structured board.
+
+</td>
+<td align="right">
+<img src="screenshots/loading_new_puzzle_board_small.gif" width="260">
+</td>
+</tr>
+</table>
+
+
+
 
 Once imported, Arroword automatically **detects the puzzle’s grid dimensions** and initializes a structured puzzle board.
 
@@ -116,6 +135,11 @@ The codebase is currently private while the app is prepared for wider release.
 If you're evaluating this project in the context of a job application, I’d be happy to **walk through the architecture and selected portions of the code live** in an interview or technical conversation.
 
 ---
+
+<p align="center">
+  <img src="screenshots/loading_new_puzzle_board_small.gif" alt="Loading a new puzzle board" width="360">
+</p>
+
 
 ## 👋 Author
 
