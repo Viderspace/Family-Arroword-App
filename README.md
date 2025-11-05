@@ -35,10 +35,6 @@ Arroword then automatically detects the puzzle’s grid dimensions and initializ
 
 
 
-
-
-
-
 <table>
 <tr>
 <td width="55%">
@@ -121,8 +117,7 @@ This provides, at a glance:
 <td width="45%" align="center">
   <table>
     <tr>
-      <td align="center"><img src="screenshots/minimap_overview_1.PNG" width="240" alt="Minimap with colored contributions"></td>
-      <td align="center"><img src="screenshots/minimap_overview_2.PNG" width="240" alt="Member badges and stacked contribution bar"></td>
+      <td align="center"><img src="screenshots/minimap_board_group.gif" width="260"></td>
     </tr>
   </table>
 </td>
