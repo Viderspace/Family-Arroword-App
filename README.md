@@ -42,7 +42,7 @@ This provides **Google-Docs-style presence**, but for puzzle solving.
 > Demonstrates: Firebase Firestore real-time listeners, shared editing state modeling, SwiftUI state diffing.
 
 **Screenshot:**  
-`/screenshots/realtime_board.png`
+`/screenshots/realtime_board.PNG`
 
 ---
 
@@ -59,7 +59,7 @@ This lightweight gamification drives:
 > Demonstrates: Custom drawing in SwiftUI, local snapshot caching, incremental data aggregation, product design thinking.
 
 **Screenshot:**  
-`/screenshots/minimap_overview.png`
+`/screenshots/minimap_overview.PNG`
 
 ---
 
@@ -72,7 +72,7 @@ On tapping a cell:
 > Demonstrates: gesture recognition, custom overlay inputs, clue traversal algorithms, bidirectional grid-to-model mapping.
 
 **Screenshot:**  
-`/screenshots/focus_and_keyboard.png`
+`/screenshots/focus_and_keyboard.PNG`
 
 ---
 
@@ -82,7 +82,7 @@ Arroword has been distributed privately through **TestFlight** for group testing
 This ensures real device performance evaluation, UX refinement, and real multi-user stress testing.
 
 **Screenshot:**  
-`/screenshots/testflight_builds.png`
+`/screenshots/testflight_builds.PNG`
 
 > Demonstrates: App signing, provisioning, TestFlight deployment, OTA beta distribution.
 
