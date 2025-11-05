@@ -42,9 +42,54 @@ Arroword then automatically detects the puzzle’s grid dimensions and initializ
 
 
 
+
+-------------------------------------------------------------------------------------
+
 Once imported, Arroword automatically **detects the puzzle’s grid dimensions** and initializes a structured puzzle board.
 
-> Demonstrates: PDFKit, VisionKit, UIKit → SwiftUI bridging, computer-vision preprocessing.
+
+---------------------------------------------------------------------------------------------------------
+
+
+
+<table>
+<tr>
+<td width="55%">
+
+<h3>2. <strong>Automatic Puzzle Grid Detection</strong></h3>
+
+After the puzzle image or PDF page is selected, Arroword automatically analyzes the layout to detect the <b>exact grid dimensions</b> and classify each cell as either a <b>clue cell</b> or an <b>answer cell</b>. The puzzle is then converted into a precise, coordinate-indexed grid data model.
+
+This enables:
+<ul>
+<li>Pixel-accurate cell boundaries during zoom and pan</li>
+<li>Stable rendering across device sizes and orientations</li>
+<li>Reliable cell selection and directional highlight behavior</li>
+<li>A clean, touch-native puzzle interaction experience</li>
+</ul>
+
+The result is that <i>any</i> puzzle — scanned, photographed, or imported — becomes a fully interactive, cell-level puzzle board ready for collaborative solving.
+
+</td>
+<td align="right">
+<img src="screenshots/Grid_Auto_Analysis.gif" width="260">
+</td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 
