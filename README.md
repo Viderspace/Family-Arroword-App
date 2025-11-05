@@ -72,37 +72,72 @@ Any printed puzzle becomes a fully interactive, cell-accurate board—ready for 
 
 
 
+<table>
+<tr>
+<td width="55%">
+
+<h3>3. <strong>Real-Time Collaborative Solving</strong></h3>
+
+Arroword allows multiple users to solve the same puzzle together in real time.  
+Each participant is assigned a unique color, which clearly communicates:
+<ul>
+<li>Where they are currently focused</li>
+<li>Which cells they have filled</li>
+<li>Which clue/path they are working on</li>
+</ul>
+
+State is synchronized through Firestore listeners, so all players see updates instantly with no manual refresh.
+
+</td>
+
+<td width="45%" align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="screenshots/realtime_board_user_closeup.PNG" width="240"></td>
+      <td align="center"><img src="screenshots/realtime_collaboration.PNG" width="240"></td>
+    </tr>
+  </table>
+</td>
+
+</tr>
+</table>
 
 
 
+<table>
+<tr>
+<td width="55%">
+
+<h3>4. <strong>Contribution Map & Progress Bar</strong></h3>
+
+Each puzzle card in the lobby shows a **minimap** of the board with cells colored by the **member who filled them**.  
+Above the minimap: member name badges ordered by contribution.  
+Below it: a **stacked progress bar** partitioned by member color, showing the share each person solved.
+
+This provides, at a glance:
+<ul>
+<li>Group progress & who solved what</li>
+<li>Friendly competition that drives engagement</li>
+<li>Low bandwidth previews via <b>lazy loading</b> and <b>local snapshot caching</b></li>
+<li>Fast updates from Firestore-aggregated cell metadata</li>
+</ul>
+
+</td>
+
+<td width="45%" align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="screenshots/minimap_overview_1.PNG" width="240" alt="Minimap with colored contributions"></td>
+      <td align="center"><img src="screenshots/minimap_overview_2.PNG" width="240" alt="Member badges and stacked contribution bar"></td>
+    </tr>
+  </table>
+</td>
+
+</tr>
+</table>
 
 
 
-
-
-
-
-
----
-
-### 2. **Real-Time Collaborative Solving**
-Multiple members solve the same puzzle *together* — live.
-
-Each member is assigned a unique **identity color**, used throughout the UI to show:
-- Which clue each person is currently focused on
-- Which cell they are editing right now
-- Which letters were contributed by each member
-
-This provides **Google-Docs-style presence**, but for puzzle solving.
-
-> Demonstrates: Firebase Firestore real-time listeners, shared editing state modeling, SwiftUI state diffing.
-
-**Screenshot:**  
-<p align="center">
-  <img src="screenshots/realtime_board.PNG" alt="Real-time collaborative board" width="360">
-</p>
-
-`/screenshots/realtime_board.PNG`
 
 ---
 
