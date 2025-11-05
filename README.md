@@ -1,13 +1,11 @@
 # Arroword (Collaborative Puzzle App) — Preview
 
-**Arroword** is a real-time, collaborative arrow-word (תשחץ) puzzle-solving app for iOS built with SwiftUI and Firebase. 
-It turns solving traditional weekly arrow-word puzzles into a shared, social experience.
+**Arroword** is a real-time, collaborative arrow-word puzzle-solving app for iOS built with SwiftUI and Firebase.  
+It brings **live presence collaboration** — similar to real-time document editing — to the world of arrow-word puzzles.
 
-Users can upload a puzzle (from image, PDF, or live camera scan), share it with friends, and solve it together, with each participant’s contribution shown live on the board.
+Users can upload a puzzle (from image, PDF, or live scan), invite friends, and solve it together — with each participant’s contributions shown live on the board in real time.
 
 ---
-
-
 ## ✨ Key Features
 
 <table>
@@ -19,11 +17,11 @@ Users can upload a puzzle (from image, PDF, or live camera scan), share it with 
 Users can start a new shared puzzle group by importing:
 <ul>
 <li>A <b>photo</b> from the gallery</li>
-<li>A <b>PDF document</b> with page selection  (Like in this instance ---->)</li>
+<li>A <b>PDF document</b> with page selection (as shown to the right)</li>
 <li>A <b>live scan</b> using VisionKit</li>
 </ul>
 
-Arroword then automatically detects the puzzle’s grid dimensions and initializes a structured board.
+Arroword then automatically detects the puzzle’s grid dimensions and initializes a structured puzzle board.
 
 </td>
 <td align="right">
@@ -32,7 +30,7 @@ Arroword then automatically detects the puzzle’s grid dimensions and initializ
 </tr>
 </table>
 
-
+---
 
 <table>
 <tr>
@@ -40,17 +38,18 @@ Arroword then automatically detects the puzzle’s grid dimensions and initializ
 
 <h3>2. <strong>Automatic Puzzle Grid Detection</strong></h3>
 
-After a puzzle file, scan, or image is selected, Arroword automatically detects the <b>grid dimensions</b> and distinguishes <b>definition cells</b> from <b>answer (empty) cells</b>. The puzzle is then converted into a precise, coordinate-based grid model.
+After a puzzle file, scan, or image is selected, Arroword automatically detects the <b>grid dimensions</b> and distinguishes <b>definition cells</b> from <b>answer cells</b>.
+The puzzle is then converted into a precise, coordinate-indexed grid model.
 
 This enables:
 <ul>
-<li>Pixel-accurate zoom/pan</li>
+<li>Pixel-accurate zoom & pan</li>
 <li>Consistent rendering across device sizes</li>
-<li>Selectable cell paths with direction toggling</li>
+<li>Selectable clue paths with direction toggling</li>
 <li>A smooth, touch-native solving experience</li>
 </ul>
 
-Any printed puzzle becomes a fully interactive, cell-accurate board—ready for collaborative play.
+Any printed puzzle becomes a fully interactive, cell-accurate board — ready for collaborative play.
 
 </td>
 <td align="right">
@@ -59,15 +58,14 @@ Any printed puzzle becomes a fully interactive, cell-accurate board—ready for 
 </tr>
 </table>
 
-
-
+---
 <table>
 <tr>
 <td width="55%">
 
 <h3>3. <strong>Real-Time Collaborative Solving</strong></h3>
 
-Arroword allows multiple users to solve the same puzzle together in real time.  
+Multiple users solve the same puzzle together in real time.  
 Each participant is assigned a unique color, which clearly communicates:
 <ul>
 <li>Where they are currently focused</li>
@@ -75,15 +73,15 @@ Each participant is assigned a unique color, which clearly communicates:
 <li>Which clue/path they are working on</li>
 </ul>
 
-State is synchronized through Firestore listeners, so all players see updates instantly with no manual refresh.
+State is synchronized using Firestore listeners, so all participants see updates instantly — with no manual refresh.
 
 </td>
 
 <td width="45%" align="center">
   <table>
     <tr>
-      <td align="center"><img src="screenshots/realtime_board_user_closeup.PNG" width="240"></td>
-      <td align="center"><img src="screenshots/realtime_collaboration.PNG" width="240"></td>
+      <td align="center"><img src="screenshots/realtime_board_user_closeup.PNG" width="230"></td>
+      <td align="center"><img src="screenshots/realtime_collaboration.PNG" width="230"></td>
     </tr>
   </table>
 </td>
@@ -91,38 +89,34 @@ State is synchronized through Firestore listeners, so all players see updates in
 </tr>
 </table>
 
-
+---
 
 <table>
 <tr>
 <td width="55%">
 
-<h3>4. <strong>Contribution Map & Progress Bar</strong></h3>
+<h3>4. <strong>Lobby View & Collaborative Gamification</strong></h3>
 
-Each puzzle card in the lobby shows a **minimap** of the board with cells colored by the **member who filled them**.  
-Above the minimap: member name badges ordered by contribution.  
-Below it: a **stacked progress bar** partitioned by member color, showing the share each person solved.
+All active puzzles appear in the main lobby as cards, each showing a compact visual summary of the group’s progress:
 
-This provides, at a glance:
 <ul>
-<li>Group progress & who solved what</li>
-<li>Friendly competition that drives engagement</li>
-<li>Low bandwidth previews via <b>lazy loading</b> and <b>local snapshot caching</b></li>
-<li>Fast updates from Firestore-aggregated cell metadata</li>
+<li>A <b>minimap</b> of the board, with solved cells color-coded by the member who filled them.</li>
+<li><b>Member badges</b> above the minimap, ordered by contribution.</li>
+<li>A <b>stacked progress bar</b> illustrating both overall completion and each member’s share.</li>
 </ul>
+
+This allows players to see progress at a glance and encourages friendly competition, while remaining lightweight through <b>lazy loading</b> and <b>local snapshot caching</b>.
 
 </td>
 
 <td width="45%" align="center">
-  <table>
-    <tr>
-      <td align="center"><img src="screenshots/minimap_board_group.gif" width="260"></td>
-    </tr>
-  </table>
+<img src="screenshots/minimap_board_group.gif" width="260">
 </td>
 
 </tr>
 </table>
+
+===
 
 <table>
 <tr>
