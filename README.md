@@ -1,9 +1,9 @@
-# Arroword (Collaborative Puzzle App) — Preview
+# Arroword (Collaborative Puzzle App) - Preview
 
 **Arroword** is a real-time, collaborative arrow-word puzzle-solving app for iOS built with SwiftUI and Firebase.  
-It brings **live presence collaboration** — similar to real-time document editing — to the world of arrow-word puzzles.
+It brings **live presence collaboration** - similar to real-time document editing - to the world of arrow-word puzzles.
 
-Users can upload a puzzle (from image, PDF, or live scan), invite friends, and solve it together — with each participant’s contributions shown live on the board in real time.
+Users can upload a puzzle (from image, PDF, or live scan), invite friends, and solve it together - with each participant’s contributions shown live on the board in real time.
 
 ---
 ## ✨ Key Features
@@ -22,7 +22,7 @@ Each participant is assigned a unique color, which clearly communicates:
 <li>Which clue/path they are working on</li>
 </ul>
 
-State is synchronized using Firestore listeners, so all participants see updates instantly — with no manual refresh.
+State is synchronized using Firestore listeners, so all participants see updates instantly - with no manual refresh.
 
 </td>
 
@@ -110,7 +110,7 @@ This enables:
 <li>A smooth, touch-native solving experience</li>
 </ul>
 
-Any printed puzzle becomes a fully interactive, cell-accurate board — ready for collaborative play.
+Any printed puzzle becomes a fully interactive, cell-accurate board - ready for collaborative play.
 
 </td>
 <td align="right">
@@ -167,7 +167,7 @@ The codebase is currently private while the app is being prepared for broader re
 
 If you're reviewing this in the context of a role or collaboration, I’d be happy to walk through architecture and implementation details in conversation.
 
-If you are an Android developer or interested in helping port the experience to Android, feel free to reach out — collaboration is welcome.
+If you are an Android developer or interested in helping port the experience to Android, feel free to reach out - collaboration is welcome.
 
 ---
 ## 👋 Author
