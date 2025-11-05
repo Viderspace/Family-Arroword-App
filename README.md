@@ -6,7 +6,7 @@ It brings **live presence collaboration** - similar to real-time document editin
 Users can upload a puzzle (from image, PDF, or live scan), invite friends, and solve it together - with each participant’s contributions shown live on the board in real time.
 
 ---
-## ✨ Key Features
+## 🌟 What Makes Arroword Unique
 
 <table>
 <tr>
@@ -153,9 +153,9 @@ This ensures the app performs reliably outside the simulator and under real netw
 
 ## 🔭 Upcoming Feature: Per-Riddle Chat
 
-A built-in chat system is being developed, allowing members to discuss specific clues directly on the board.  
+A built-in chat system is being developed, allowing members to discuss specific riddles directly on the board.  
 A long-press on a cell opens a chat scoped to that clue’s context.  
-This feature is currently being tested in private TestFlight builds and iterated based on user feedback.
+This feature is currently being tested in private TestFlight builds and iterated based on feedbacks.
 
 ---
 
