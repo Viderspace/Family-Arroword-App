@@ -8,12 +8,6 @@ The full codebase remains private while the app is prepared for release, but thi
 
 ---
 
-## 🎥 Demo Video (1 min)
-
-> **Video Link:** *(upload YouTube as Unlisted and replace this line)*  
-> `https://youtu.be/PLACEHOLDER`
-
----
 
 ## ✨ Key Features
 
@@ -136,52 +130,50 @@ This provides, at a glance:
 </tr>
 </table>
 
+<table>
+<tr>
+<td width="55%">
 
+<h3>5. <strong>Deployment & Beta Testing (TestFlight)</strong></h3>
 
+Arroword has been distributed through **TestFlight** for real-world testing with multiple users (aka my dear family members). 
 
----
+This enabled iterative refinement of:
+<ul>
+<li>Interaction flow and control responsiveness</li>
+<li>Collaborative sync behavior under real network conditions</li>
+<li>Performance on different device sizes and OS versions</li>
+</ul>
 
-### 3. **Contribution Visualization & Gamification**
-The lobby displays a **“minimap” puzzle preview** where each filled cell is shown in the contributor’s color — making progress and collaboration clear at a glance.
+Using TestFlight ensured the app performs reliably outside the simulator, under real usage patterns.
 
-Above it, a **color-coded member list** and **stacked bar contribution meter** display how much each user has contributed.
+</td>
 
-This lightweight gamification drives:
-- Friendly competition  
-- Engagement  
-- Clear progress visibility  
+<td width="45%" align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="screenshots/testflight_build_info.jpeg" width="260"></td>
+    </tr>
+  </table>
+</td>
 
-> Demonstrates: Custom drawing in SwiftUI, local snapshot caching, incremental data aggregation, product design thinking.
-
-**Screenshot:**  
-`/screenshots/minimap_overview.PNG`
-
----
-
-### 4. **Smooth Interaction & Puzzle Input**
-On tapping a cell:
-- The full clue path highlights in the user’s color
-- A custom Hebrew keyboard slides up
-- Other participants see the highlight live
-
-> Demonstrates: gesture recognition, custom overlay inputs, clue traversal algorithms, bidirectional grid-to-model mapping.
-
-**Screenshot:**  
-`/screenshots/focus_and_keyboard.PNG`
+</tr>
+</table>
 
 ---
 
-### 5. **Deployment & Beta Testing (TestFlight)**
-Arroword has been distributed privately through **TestFlight** for group testing and iteration.
+## 🚧 In Progress: Per-Riddle Chat (Upcoming Feature)
 
-This ensures real device performance evaluation, UX refinement, and real multi-user stress testing.
+A built-in chat system is currently being developed to allow group members to discuss 
+specific clues directly on the puzzle board. The chat opens with a long-press on a cell 
+and is scoped to that clue’s context.
 
-**Screenshot:**  
-`/screenshots/testflight_builds.PNG`
-
-> Demonstrates: App signing, provisioning, TestFlight deployment, OTA beta distribution.
+This feature is being tested in private TestFlight builds and is undergoing iteration 
+based on user feedback and real-world usage.
 
 ---
+
+
 
 ## 🛠️ Tech Stack
 
@@ -207,10 +199,6 @@ The codebase is currently private while the app is prepared for wider release.
 If you're evaluating this project in the context of a job application, I’d be happy to **walk through the architecture and selected portions of the code live** in an interview or technical conversation.
 
 ---
-
-<p align="center">
-  <img src="screenshots/loading_new_puzzle_board_small.gif" alt="Loading a new puzzle board" width="360">
-</p>
 
 
 ## 👋 Author
