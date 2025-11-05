@@ -1,10 +1,9 @@
-# Arroword (Collaborative Arrow-Word Puzzle App) — Preview
+# Arroword (Collaborative Puzzle App) — Preview
 
-**Arroword** is a real-time, collaborative *arrow-word puzzle* solving app built for iOS using **SwiftUI** and **Firebase**.  
-Users can upload a puzzle (from image, PDF, or live camera scan), share it with friends, and solve it together — with each participant’s progress shown live on the board.
+**Arroword** is a real-time, collaborative arrow-word (תשחץ) puzzle-solving app for iOS built with SwiftUI and Firebase.  
+It turns solving traditional weekly arrow-word puzzles into a shared, social experience.
 
-This repository provides a **visual overview and product walkthrough** of the app in its current in-development state.  
-The full codebase remains private while the app is prepared for release, but this preview demonstrates the core features, UI patterns, system design, and collaborative logic.
+Users can upload a puzzle (from image, PDF, or live camera scan), share it with friends, and solve it together, with each participant’s contribution shown live on the board.
 
 ---
 
