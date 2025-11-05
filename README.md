@@ -42,6 +42,10 @@ This provides **Google-Docs-style presence**, but for puzzle solving.
 > Demonstrates: Firebase Firestore real-time listeners, shared editing state modeling, SwiftUI state diffing.
 
 **Screenshot:**  
+<p align="center">
+  <img src="screenshots/realtime_board.PNG" alt="Real-time collaborative board" width="360">
+</p>
+
 `/screenshots/realtime_board.PNG`
 
 ---
