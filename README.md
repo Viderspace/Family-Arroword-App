@@ -43,13 +43,6 @@ Arroword then automatically detects the puzzle’s grid dimensions and initializ
 
 
 
--------------------------------------------------------------------------------------
-
-Once imported, Arroword automatically **detects the puzzle’s grid dimensions** and initializes a structured puzzle board.
-
-
----------------------------------------------------------------------------------------------------------
-
 
 
 <table>
@@ -58,25 +51,24 @@ Once imported, Arroword automatically **detects the puzzle’s grid dimensions**
 
 <h3>2. <strong>Automatic Puzzle Grid Detection</strong></h3>
 
-After the puzzle image or PDF page is selected, Arroword automatically analyzes the layout to detect the <b>exact grid dimensions</b> and classify each cell as either a <b>clue cell</b> or an <b>answer cell</b>. The puzzle is then converted into a precise, coordinate-indexed grid data model.
+After a puzzle file, scan, or image is selected, Arroword automatically detects the <b>grid dimensions</b> and distinguishes <b>definition cells</b> from <b>answer (empty) cells</b>. The puzzle is then converted into a precise, coordinate-based grid model.
 
 This enables:
 <ul>
-<li>Pixel-accurate cell boundaries during zoom and pan</li>
-<li>Stable rendering across device sizes and orientations</li>
-<li>Reliable cell selection and directional highlight behavior</li>
-<li>A clean, touch-native puzzle interaction experience</li>
+<li>Pixel-accurate zoom/pan</li>
+<li>Consistent rendering across device sizes</li>
+<li>Selectable cell paths with direction toggling</li>
+<li>A smooth, touch-native solving experience</li>
 </ul>
 
-The result is that <i>any</i> puzzle — scanned, photographed, or imported — becomes a fully interactive, cell-level puzzle board ready for collaborative solving.
+Any printed puzzle becomes a fully interactive, cell-accurate board—ready for collaborative play.
 
 </td>
 <td align="right">
-<img src="screenshots/Grid_Auto_Analysis.gif" width="260">
+<img src="screenshots/auto_grid_detection_small.gif" width="260">
 </td>
 </tr>
 </table>
-
 
 
 
