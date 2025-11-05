@@ -158,34 +158,19 @@ A long-press on a cell opens a chat scoped to that clue’s context.
 This feature is currently being tested in private TestFlight builds and iterated based on user feedback.
 
 ---
+
 ## 📌 Project Status
 
 Arroword is an active project in ongoing development.  
-The core real-time collaboration, gameplay flow, and lobby experience are implemented and tested with real users through private TestFlight distribution.  
-The codebase is private while the app is being prepared for broader release.
+The real-time collaboration, lobby experience, and core puzzle mechanics are fully implemented and tested with real users through private TestFlight distribution.  
+The codebase is currently private while the app is being prepared for broader release.
 
-If you're evaluating this project for a role or collaboration, I’d be happy to walk through architecture and implementation details in conversation.
+If you're reviewing this in the context of a role or collaboration, I’d be happy to walk through architecture and implementation details in conversation.
 
-
-## Project Overview
-
-This repository provides a visual walkthrough of the app in its current development stage.  
-The codebase remains private while the app is being prepared for release, but the preview demonstrates the core features, collaborative interactions, and system design.
+If you are an Android developer or interested in helping port the experience to Android, feel free to reach out — collaboration is welcome.
 
 ---
-
-
-## 📌 Status
-
-Active project in ongoing development.  
-The core architecture, UI workflows, and collaborative systems are implemented and refined based on real-world testing.  
-The codebase is private while preparing for broader release.
-
-If you're reviewing this in the context of a job application, I’d be glad to walk through selected implementation details in conversation.
-
----
-
 ## 👋 Author
 
 **Jonatan Vider**  
-iOS & Product Developer — Tel Aviv, Israel
+Product & Game Developer - Tel Aviv, Israel
