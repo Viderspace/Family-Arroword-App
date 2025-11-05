@@ -12,7 +12,7 @@ Users can upload a puzzle (from image, PDF, or live scan), invite friends, and s
 <tr>
 <td width="55%">
 
-<h3>1. <strong>Real-Time Collaborative Solving</strong></h3>
+<h3><strong>Real-Time Collaborative Solving</strong></h3>
 
 Multiple users solve the same puzzle together in real time.  
 Each participant is assigned a unique color, which clearly communicates:
@@ -44,7 +44,7 @@ State is synchronized using Firestore listeners, so all participants see updates
 <tr>
 <td width="55%">
 
-<h3>2. <strong>Lobby View & Collaborative Gamification</strong></h3>
+<h3><strong>Lobby View & Collaborative Gamification</strong></h3>
 
 All active puzzles appear in the main lobby as cards, each showing a compact visual summary of the group’s progress:
 
@@ -73,7 +73,7 @@ This allows players to see progress at a glance and encourages friendly competit
 <tr>
 <td width="55%">
 
-<h3>3. <strong>Puzzle Upload & Board Recognition</strong></h3>
+<h3><strong>Puzzle Upload & Board Recognition</strong></h3>
 
 Users can start a new shared puzzle group by importing:
 <ul>
@@ -97,7 +97,7 @@ Arroword then automatically detects the puzzle’s grid dimensions and initializ
 <tr>
 <td width="55%">
 
-<h3>4. <strong>Automatic Puzzle Grid Detection</strong></h3>
+<h3><strong>Automatic Puzzle Grid Detection</strong></h3>
 
 After a puzzle file, scan, or image is selected, Arroword automatically detects the <b>grid dimensions</b> and distinguishes <b>definition cells</b> from <b>answer cells</b>.
 The puzzle is then converted into a precise, coordinate-indexed grid model.
@@ -127,7 +127,7 @@ Any printed puzzle becomes a fully interactive, cell-accurate board - ready for 
 <tr>
 <td width="55%">
 
-<h3>5. <strong>Deployment & Beta Testing (TestFlight)</strong></h3>
+<h3><strong>Deployment & Beta Testing (TestFlight)</strong></h3>
 
 Arroword has been distributed privately through **TestFlight** for real-world testing with multiple users.
 This allowed refinement of:
