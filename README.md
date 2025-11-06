@@ -1,4 +1,4 @@
-# Arroword (Collaborative Puzzle App) - Preview
+# Arroword - Collaborative Puzzle App
 
 **Arroword** is a real-time, collaborative arrow-word puzzle-solving app for iOS built with SwiftUI and Firebase.  
 It brings **live presence collaboration** - similar to real-time document editing - to the world of arrow-word puzzles.
@@ -6,7 +6,7 @@ It brings **live presence collaboration** - similar to real-time document editin
 Users can upload a puzzle (from image, PDF, or live scan), invite friends, and solve it together - with each participant’s contributions shown live on the board in real time.
 
 ---
-## 🌟 What Makes Arroword Unique
+## Highlights
 
 <table>
 <tr>
@@ -151,15 +151,15 @@ This ensures the app performs reliably outside the simulator and under real netw
 ---
 
 
-## 🔭 Upcoming Feature: Per-Riddle Chat
+## Upcoming Feature: Per-Riddle Chat
 
 A built-in chat system is being developed, allowing members to discuss specific riddles directly on the board.  
 A long-press on a cell opens a chat scoped to that clue’s context.  
-This feature is currently being tested in private TestFlight builds and iterated based on feedbacks.
+This feature is currently being tested in latest builds and iterated based on feedbacks.
 
 ---
 
-## 📌 Project Status
+## Project Status
 
 Arroword is an active project in ongoing development.  
 The real-time collaboration, lobby experience, and core puzzle mechanics are fully implemented and tested with real users through private TestFlight distribution.  
@@ -170,7 +170,7 @@ If you're reviewing this in the context of a role or collaboration, I’d be hap
 If you are an Android developer or interested in helping port the experience to Android, feel free to reach out - collaboration is welcome.
 
 ---
-## 👋 Author
+## Author
 
 **Jonatan Vider**  
 Product & Game Developer - Tel Aviv, Israel
